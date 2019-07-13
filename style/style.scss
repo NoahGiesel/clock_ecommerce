@@ -7,8 +7,7 @@ html , body {
     margin: 0;
     padding: 0;
     background-color: violet;
-    overflow-y: hidden;
-    
+    overflow: hidden;
 }
 
 * {
@@ -16,12 +15,16 @@ html , body {
     padding: 0;
 }
 
+input:focus,button{
+    outline: none;   
+    border: none;
+}
 
 
 header {  
     position: relative; 
     height: 8vh; 
-
+    background-color: rgb(206, 206, 206);
 
     .logo-img {
         position: absolute;
@@ -49,18 +52,96 @@ header {
 
 .landing__section {
     display: grid;
+    grid-template-columns: 60% 40%;
     width: 100%;
     height: calc(100vh-8vh);
-    grid-template-columns: 60% 40%;
     margin: 0 ; 
     padding: 0;
 
-    .clock__section {
-        background-color: red; 
-        height: calc(100vh-8vh);
-        width: 100%;
 
+    .text__section {  
+
+        background-color: grey; 
+        height: 92vh;
+        width: 100%;
+        position: relative;
+
+
+
+        .container {
+            position: absolute ; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: #ffaf20;
+            padding: 30px;
+            border-radius: 9px;
+
+            h2 {
+                font-size: 50px;
+                margin: 10px 0;
+            }
+
+            p {
+                margin: 10px 0;
+                font-size: 25px;
+            }
+
+            button { 
+                margin: 10px 0 ; 
+                float: right;
+                padding: 15px 25px;
+                color: #fff;
+                border-radius: 10px;
+                background-color: #10455b;
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .buttons {
+            position: absolute ;
+            right: -50px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 20;
+            cursor: pointer;
+ 
+
+        .button_left , .button_right {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: red;
+            margin: 40px 0;
+        } 
+
+    }
+    }
+
+   
+
+
+
+
+    .clock__section {
+        background-color: #fff; 
+        height: 92vh;
+        width: 100%;
+        position: relative;
+
+        img { 
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            transition: 600ms;
+        }
+ 
         
+        #orologio2 ,#orologio3 {
+            transform: translate(100%,-50%);
+        }
     }
  
 }
