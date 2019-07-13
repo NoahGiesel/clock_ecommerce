@@ -1,0 +1,66 @@
+$background : #fff;
+
+
+html , body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    overflow-y: hidden;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {  
+    position: relative; 
+    height: 8vh; 
+
+
+    .logo-img {
+        position: absolute;
+         left: 5%;
+         top: 50%;
+         transform: translateY(-50%);
+    }
+
+
+    .brandName {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+    }
+
+    .carrello {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right:5%;
+    }  
+
+}
+
+.landing__section {
+    display: grid;
+    width: 100%;
+    height: calc(100vh-8vh);
+    grid-template-columns: 60% 40%;
+    margin: 0 ; 
+    padding: 0;
+
+    .clock__section {
+        background-color: red; 
+        height: calc(100vh-8vh);
+        width: 100%;
+
+        
+    }
+ 
+}
