@@ -1,0 +1,23 @@
+[
+    {
+        "titolo" : "1902 Watch",
+        "materiale" : "Oyster, 40mm, steel Oystersteel",
+        "descrizione" : " \"The Watch \" watches are made with the finest raw materials and assembled with scrupulous attention to the smallest details. Each component is designed, developed and produced in-house according to the most rigorous standards.",
+        "prezzo" : "9,99$" 
+    },
+    {
+        "titolo" : "1902 Watch 2",
+        "materiale" : "Oyster, 40mm, steel Oystersteel 2",
+        "descrizione" : " \"The Watch \" watches are made with the finest raw materials and assembled with scrupulous attention to the smallest details. Each component is designed, developed and produced in-house according to the most rigorous standards. 2",
+        "prezzo" : "19,99$" 
+    },
+    {
+        "titolo" : "1902 Watch 3",
+        "materiale" : "Oyster, 40mm, steel Oystersteel 3",
+        "descrizione" : " \"The Watch \" watches are made with the finest raw materials and assembled with scrupulous attention to the smallest details. Each component is designed, developed and produced in-house according to the most rigorous standards. 3",
+        "prezzo" : "99,99$" 
+    }
+]
+
+
+ 
