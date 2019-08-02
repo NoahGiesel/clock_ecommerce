@@ -10,8 +10,8 @@ const orologio2=document.getElementById("orologio2");
 const orologio3=document.getElementById("orologio3");
 
 
-const titolo =document.getElementById("titolo");
-const materiale =document.getElementById("materiale");
+const titolo = document.getElementById("titolo");
+const materiale = document.getElementById("materiale");
 const descrizione =document.getElementById("descrizione");
 const prezzo =document.getElementById("prezzo");
 
